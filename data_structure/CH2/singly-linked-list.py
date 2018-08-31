@@ -97,6 +97,8 @@ if __name__ == '__main__':
     # end = 줄바꿈 방지
     # print 문 실행 시 항상 문자열 마지막에 \n 문자가 출력되어 줄바꿈이 일어나게 된다. 이렇게 마지막 문자인 \n을 생략할 수 있는 방법
     print('pear 다음 노드 삭세후:', end='')
+    print(s.head.item)
+
     s.delete_after(s.head)
     s.print_list()
     print('첫 노드 삭세 후:', end= '')
